@@ -24,5 +24,6 @@ namespace PortfolioAsp.Net.DAL.Context
         DbSet<Social> SocialMedia { get; set; }
         DbSet<Testimonials> Testimonials { get; set; }
         DbSet<Skills> Skills { get; set; }
+       // DbSet<ToDoList> ToDoLists { get; set; }
     }
 }
